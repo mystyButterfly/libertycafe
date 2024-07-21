@@ -342,8 +342,8 @@ afteFooter p{
     width: 90%;
   }
   .article img{
-    width: 40%;
-    height: calc(width);
+    width: 150px;
+    height: 150px;
   }
   .articles button{
     margin: 15px;
