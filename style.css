@@ -258,6 +258,10 @@ afteFooter p{
   border-top: 2px solid rgba(0, 0, 0, 0.228);
   text-align: center;
 }
+.a-text a{
+ text-decoration: none;
+ color: black;
+}
 
 @media only screen and (max-width: 800px) {
   nav{
