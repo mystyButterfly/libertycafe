@@ -1,0 +1,259 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'CustomFont', sans-serif;
+}
+p{
+  font-size: 1.4rem;
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./FREEBSC_.ttf') format('opentype');
+}
+body{
+  background-color: rgb(255, 253, 242);
+  cursor: url('./images/cruasan50.png') 2 2, auto;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+}
+.h-top-coment{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  border: 2px solid rgba(250, 250, 210, 0.582);
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+label{
+  font-size: 40px;
+  margin: 0px 20px 0px 50px;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 30px;
+}
+li{
+  margin: 0 20px;
+}
+li>a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+}
+.h-image img{
+  width: 100%;
+  height: auto;
+}
+
+.h-text{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid rgba(215, 209, 144, 0.84);
+  position: relative;
+  width: 60%;
+  background: rgb(255, 252, 233);
+  transform: translateY(-40%);
+  margin-inline: auto;
+  border-radius: 15px;
+  text-align: center;
+}
+.h-text-left{
+  width: 75%;
+  padding: 5px;
+}
+.h-text-right{
+  width: 25%;
+  border-left: 2px solid rgba(128, 128, 128, 0.249);
+  padding: 5px;
+}
+button{
+  border-radius: 20px;
+  padding: 2px 20px;
+  background-color: rgb(252, 144, 56);
+  border: none;
+  transition: 0.2s ease-in-out;
+  color: white;
+}
+button:hover{
+  background-color: rgb(255, 218, 98);
+  cursor: pointer;
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.about img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.about-text{
+  width: 600px;
+  padding: 20px;
+}
+
+.foods{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.food{
+  margin: 2px;
+  width: 32%;
+}
+.food img{
+  width: 100%;
+  height: auto;
+}
+
+.menu{
+  width: 80%;
+  margin: 10%
+}
+.reservation{
+  display: flex;
+  flex-direction: row;
+}
+.reservation img{
+  width: 40%;
+  height: auto;
+}
+.reservation-text{
+  width: 60%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.066);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.review {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  color: grey;
+
+}
+.review-img{
+  background-image: url('./images/quote.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+
+.carusel{
+  width: 50%;
+  margin-inline: auto;
+}
+.articles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articles-label h2{
+  font-size: 50px;
+}
+.article{
+  display: flex;
+  padding: 10px;
+  width: 70%;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.256);
+}
+.border-top{
+  border-top: 2px solid rgba(128, 128, 128, 0.256);
+}
+.article img{
+  width: 150px;
+  height: 150px;
+}
+.a-text{
+  padding: 10px;
+}
+.articles button{
+  margin: 15px;
+}
+.interjer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 30px 0;
+}
+.extrapadding{
+  padding: 0 2px;
+}
+
+/* increase image */
+.image-container {
+  position: relative;
+}
+.small-image{
+  width: 200px;
+  height: 200px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.635);
+  align-items: center;
+  justify-content: center;
+}
+
+.full-screen-image {
+  width: 600px;
+  height: 600px;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.custom-cursor:hover {
+  cursor: zoom-in;
+}
+footer{
+  display: flex;
+  flex-direction:row ;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+afteFooter p{
+  border-top: 2px solid rgba(0, 0, 0, 0.228);
+  text-align: center;
+}
