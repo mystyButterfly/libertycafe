@@ -10,7 +10,7 @@ p{
 }
 @font-face {
   font-family: 'CustomFont';
-  src: url('./FREEBSC_.ttf') format('opentype');
+  src: url('./Light\ Stories.ttf') format('opentype');
 }
 body{
   background-color: rgb(255, 253, 242);
