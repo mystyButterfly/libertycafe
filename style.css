@@ -375,5 +375,16 @@ afteFooter p{
   .f-label{
     text-align: center;
   }
+  .reservation{
+    display: flex;
+    flex-direction: column;
+  }
+  .reservation img{
+    width: 100%;
+    height: fit-content;
+  }
+  .reservation-text{
+    width: 100%;
+  }
   
 }
